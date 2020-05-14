@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Cesar c",
   "license": "MIT",
+  "engines": {
+    "node": "10.16.x"
+  },
   "scripts": {
     "build": "webpack",
     "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
